@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific exclusions
+.venv/
+data/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
