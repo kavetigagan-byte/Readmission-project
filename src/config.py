@@ -12,8 +12,20 @@ DATA_RAW = ROOT / "data" / "raw"
 DATA_PROCESSED = ROOT / "data" / "processed"
 RESULTS = ROOT / "results"
 
-COHORT_PATH = DATA_PROCESSED / "cohort_v2.parquet"
-SPLIT_PATH = DATA_PROCESSED / "split_assignment.csv"
+COHORT_DIR = DATA_PROCESSED / "cohort"
+SPLIT_DIR = DATA_PROCESSED / "split"
+TRAIN_DIR = DATA_PROCESSED / "train"
+VAL_DIR = DATA_PROCESSED / "val"
+TEST_DIR = DATA_PROCESSED / "test"
+
+COHORT_PATH = COHORT_DIR / "cohort_v2.parquet"
+COHORT_CSV_PATH = COHORT_DIR / "cohort_v2.csv"
+SPLIT_PATH = SPLIT_DIR / "split_assignment.csv"
+
+TRAIN_CSV_PATH = TRAIN_DIR / "train.csv"
+TRAIN_BALANCED_CSV_PATH = TRAIN_DIR / "train_undersampled.csv"
+VAL_CSV_PATH = VAL_DIR / "val.csv"
+TEST_CSV_PATH = TEST_DIR / "test.csv"
 
 # ---------------------------------------------------------------- attributes
 # 15 model attributes, chosen before looking at the outcome.
