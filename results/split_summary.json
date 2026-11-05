@@ -1,0 +1,219 @@
+{
+  "rule": {
+    "splitter": "StratifiedGroupKFold",
+    "n_splits": 20,
+    "random_state": 42,
+    "stratified_on": "first-encounter label",
+    "test_folds": [
+      0,
+      1,
+      2
+    ],
+    "val_folds": [
+      3,
+      4,
+      5
+    ],
+    "train_folds": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "totals": [
+    {
+      "split": "train",
+      "patients": 48991,
+      "rows": 69548,
+      "positives": 7948,
+      "prevalence": 0.114281
+    },
+    {
+      "split": "val",
+      "patients": 10497,
+      "rows": 14898,
+      "positives": 1669,
+      "prevalence": 0.112028
+    },
+    {
+      "split": "test",
+      "patients": 10499,
+      "rows": 14894,
+      "positives": 1697,
+      "prevalence": 0.113938
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "split": "test",
+      "patients": 3500,
+      "rows": 5007,
+      "positives": 582,
+      "prevalence": 0.116237
+    },
+    {
+      "fold": 1,
+      "split": "test",
+      "patients": 3500,
+      "rows": 4963,
+      "positives": 592,
+      "prevalence": 0.119283
+    },
+    {
+      "fold": 2,
+      "split": "test",
+      "patients": 3499,
+      "rows": 4924,
+      "positives": 523,
+      "prevalence": 0.106214
+    },
+    {
+      "fold": 3,
+      "split": "val",
+      "patients": 3499,
+      "rows": 4990,
+      "positives": 574,
+      "prevalence": 0.11503
+    },
+    {
+      "fold": 4,
+      "split": "val",
+      "patients": 3499,
+      "rows": 4942,
+      "positives": 544,
+      "prevalence": 0.110077
+    },
+    {
+      "fold": 5,
+      "split": "val",
+      "patients": 3499,
+      "rows": 4966,
+      "positives": 551,
+      "prevalence": 0.110954
+    },
+    {
+      "fold": 6,
+      "split": "train",
+      "patients": 3500,
+      "rows": 4920,
+      "positives": 545,
+      "prevalence": 0.110772
+    },
+    {
+      "fold": 7,
+      "split": "train",
+      "patients": 3500,
+      "rows": 4869,
+      "positives": 510,
+      "prevalence": 0.104744
+    },
+    {
+      "fold": 8,
+      "split": "train",
+      "patients": 3500,
+      "rows": 5014,
+      "positives": 596,
+      "prevalence": 0.118867
+    },
+    {
+      "fold": 9,
+      "split": "train",
+      "patients": 3499,
+      "rows": 4901,
+      "positives": 548,
+      "prevalence": 0.111814
+    },
+    {
+      "fold": 10,
+      "split": "train",
+      "patients": 3500,
+      "rows": 4981,
+      "positives": 579,
+      "prevalence": 0.116242
+    },
+    {
+      "fold": 11,
+      "split": "train",
+      "patients": 3499,
+      "rows": 4944,
+      "positives": 535,
+      "prevalence": 0.108212
+    },
+    {
+      "fold": 12,
+      "split": "train",
+      "patients": 3499,
+      "rows": 5004,
+      "positives": 609,
+      "prevalence": 0.121703
+    },
+    {
+      "fold": 13,
+      "split": "train",
+      "patients": 3499,
+      "rows": 4966,
+      "positives": 567,
+      "prevalence": 0.114176
+    },
+    {
+      "fold": 14,
+      "split": "train",
+      "patients": 3499,
+      "rows": 4991,
+      "positives": 587,
+      "prevalence": 0.117612
+    },
+    {
+      "fold": 15,
+      "split": "train",
+      "patients": 3499,
+      "rows": 4820,
+      "positives": 513,
+      "prevalence": 0.106432
+    },
+    {
+      "fold": 16,
+      "split": "train",
+      "patients": 3499,
+      "rows": 5024,
+      "positives": 581,
+      "prevalence": 0.115645
+    },
+    {
+      "fold": 17,
+      "split": "train",
+      "patients": 3499,
+      "rows": 5018,
+      "positives": 585,
+      "prevalence": 0.11658
+    },
+    {
+      "fold": 18,
+      "split": "train",
+      "patients": 3500,
+      "rows": 5035,
+      "positives": 605,
+      "prevalence": 0.120159
+    },
+    {
+      "fold": 19,
+      "split": "train",
+      "patients": 3499,
+      "rows": 5061,
+      "positives": 588,
+      "prevalence": 0.116183
+    }
+  ]
+}
