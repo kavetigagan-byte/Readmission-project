@@ -1,0 +1,12 @@
+{
+  "ratio": 1.857,
+  "seed": 42,
+  "n_pos": 7948,
+  "n_neg_kept": 14759,
+  "n_neg_available": 61600,
+  "r": 0.23959415584415583,
+  "log_r": -1.4288088043398353,
+  "train_rows_before": 69548,
+  "train_rows_after": 22707,
+  "positive_rate_after": 0.35002422160567226
+}
